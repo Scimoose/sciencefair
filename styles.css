@@ -1,0 +1,70 @@
+body{
+  overflow: hidden;
+  background-color: #006a4e;
+}
+.searchbar{
+    margin-top:10px;
+    width:100%;
+    text-align: center;
+}
+.bar{
+    border-radius:0;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    padding:10px;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #CCC;
+}
+.bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -3px;
+}
+
+.field{
+  margin: auto;
+  margin-top: 30px;
+  height: 520px;
+  box-shadow: 2px 9px 31px -8px rgba(0,0,0,0.8);
+  width:90%;
+  display: flex;
+  flex-direction: row;
+}
+.field-side{
+  flex-grow: 3;
+  max-width: 250px;
+  background-color: #484C4B;
+  text-align: left;
+  box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.field-answers{
+  flex-grow: 7;
+  background-color: #74726D;
+}
+.header{
+  padding: 10px;
+  margin: 10px;
+  background-color: #0E1311;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.category{
+  padding: 10px;
+  margin: 10px;
+  background-color: #282B2B;
+  color: white;
+  max-width: 200px;
+  border-radius: 25px;
+}
+.dot{
+  height: 8px;
+  width: 8px;
+  background-color: #E19F38;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 10px;
+}

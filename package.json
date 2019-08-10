@@ -1,0 +1,21 @@
+{
+  "name": "sciencefair",
+  "version": "1.0.0",
+  "description": "Science search app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "search",
+    "science"
+  ],
+  "author": "Patryk Surmacz",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "electron": "^6.0.0",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

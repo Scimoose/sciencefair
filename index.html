@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports;"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="searchbar">
+        <div class="form-group ">
+          <input type="text" class="bar" style="width:588px; height:44px;" class="form-control" >
+        </div>
+      </div>
+
+    </div>
+    <div class="field">
+      <div class="field-side">
+        <div class="header">Search categories:</div>
+        <!--Publications dropdown button -->
+
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle category" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dot"></div>Publications
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">PubMed</a>
+            <a class="dropdown-item" href="#">Google scholar</a>
+            <a class="dropdown-item" href="#">Springer</a>
+          </div>
+        </div>
+        <!--Publications dropdown button end-->
+        <!--Proteins dropdown button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle category" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dot"></div>Proteins
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">BRENDA</a>
+            <a class="dropdown-item" href="#">ExPASy</a>
+            <a class="dropdown-item" href="#">ExplorENZ</a>
+            <a class="dropdown-item" href="#">Uniprot</a>
+            <a class="dropdown-item" href="#">RCSB</a>
+          </div>
+        </div>
+        <!--Proteins dropdown button end-->
+        <!--Genome dropdown button -->
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle category" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <div class="dot"></div>Genome
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">placeholder</a>
+          </div>
+        </div>
+        <!--Genome dropdown button end-->
+      </div>
+      <div class="field-answers">
+
+      </div>
+    </div>
+
+    <script>
+      // You can also require other files to run in this process
+      //require('./renderer.js')
+    </script>
+  </body>
+</html>
