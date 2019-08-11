@@ -2,6 +2,7 @@ body{
   overflow: hidden;
   background-color: #006a4e;
 }
+/* Search bar CSS */
 .searchbar{
     margin-top:10px;
     width:100%;
@@ -21,7 +22,7 @@ body{
 .bar:hover{
     -webkit-box-shadow: 3px 6px 7px -3px;
 }
-
+/* Left field CSS */
 .field{
   margin: auto;
   margin-top: 30px;
@@ -36,12 +37,8 @@ body{
   max-width: 250px;
   background-color: #484C4B;
   text-align: left;
-  box-shadow: 5px 0px 5px 0px rgba(0,0,0,0.75);
 }
-.field-answers{
-  flex-grow: 7;
-  background-color: #74726D;
-}
+
 .header{
   padding: 10px;
   margin: 10px;
@@ -67,4 +64,18 @@ body{
   display: inline-block;
   margin-right: 5px;
   margin-left: 10px;
+}
+/* Right field CSS */
+.field-answers{
+  flex-grow: 7;
+  background-color: #74726D;
+  overflow-y: auto;
+}
+.viewmore-bar{
+  padding: 10px;
+  background-color: #aba8a1;
+  box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.25);
+}
+.viewmore-bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -3px;
 }
