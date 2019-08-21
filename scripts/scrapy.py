@@ -20,27 +20,24 @@ arr.pop()
 
 # there must be more efficient way, but it must only work for now
 data = {
-    firstTitle: arr[0],
-    firstAuthor: arr[1],
-    firstYear: arr[2],
-    secTitle: arr[3],
-    secAuthor: arr[4],
-    secYear: arr[5],
-    thirdTitle: arr[6],
-    thirdAuthor: arr[7],
-    thirdYear: arr[8],
+    "first" : {"title": arr[0],
+             "author": arr[1],
+             "year": arr[2]},
+    "second": {"title": arr[3],
+             "author": arr[4],
+             "year": arr[5]},
+    "third" : {"title": arr[6],
+             "author": arr[7],
+             "year": arr[8]},
 }
 print(data)
-
 # Saves a python dict object to JSON format file.
 def python_dict_to_json_file(file_path):
     try:
         # Gets a file object with write permission.
         file_object = open(file_path, 'w')
-
         # Saves dict data into the JSON file.
         json.dump(data, file_object)
-
         print(file_path + " created. ")
     except FileNotFoundError:
         print(file_path + " not found. ")
